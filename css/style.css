@@ -1,0 +1,228 @@
+*,
+::before,
+::after{
+	box-sizing:border-box;
+	padding:0;
+	margin:0;
+}
+body{
+	font-family:serif;
+	font-size:16px;
+	padding:0;
+	margin:0;
+	line-height:22px;
+	font-weight:400;
+	color:#000;
+}
+a{
+	text-decoration:none;
+	display:inline-block;
+}
+/*COUSTOM CSS................*/
+
+
+/*Section 1*/
+
+
+
+.tiger{
+	padding:200px 100px;
+	background-color:blue;
+	
+	background-image:url('../images/nature.jpg');
+	
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+	background-attachment:fixed;
+	
+}
+ .btnbg .readmore{
+	color:#fff;
+	padding:11px 46px 11px 12px;
+	background-color:#5400FF;
+	font-size:16px;
+	border-radius:5px;
+	display:inline-block;
+	background-image:url('../images/arroow.png');
+	background-repeat:no-repeat;
+	background-position: 82% center; 
+}
+.tiger .btnbg .readmore:hover{
+	color:#fff;
+	text-transform:uppercase;
+	font-weight:700;
+}
+.tiger .btnbg .readmore{
+	background-image:url('../images/right-arrow.png ');
+	background-size:18px;
+}
+.btnbg .readmore:hover{
+	background-position: 95% center;
+	background-image:url('../images/arrow-right.png');
+	transition:0.4s ease;
+		
+	}
+
+.tiger .new .about{
+	font-size:55px;
+	text-transform:uppercase;
+	font-weight:700;
+	color:#a8ff16;
+}
+.tiger.about{
+	font-size:35px;
+	padding:5px 12px 5px 12px;
+	text-transform:uppercase;
+	color:#000;
+	font-weight:800;
+}
+.tiger .new .about:hover{
+	color:#fff;
+}
+.new{
+	padding:24px;
+}
+.tiger .new{
+	text-align:center;
+}
+.tiger p{
+	/*padding:250px 0px 250px 0px;*/
+	
+	font-size:20px;
+	line-height:26px;
+	color:#000;
+	text-align:center;
+	
+	background-color:#d8e59b70;
+    padding: 35px;
+    border-radius: 10px;
+	
+	
+}
+/**/.btnbg{
+	text-align:center;
+	padding:25px;
+	
+}
+
+
+
+/*Section 2*/
+
+
+
+
+.sec2{
+	background-color:blue;
+	
+	
+	padding: 200px 100px;
+	
+	background-image:url('../images/coumputer.jpg');
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:cover;
+	background-attachment:fixed;
+
+	
+}
+.sec2 .new2{
+	text-align:center;
+	
+	
+	font-size:35px;
+	font-family:serif;
+	
+}
+.sec2 .new2 a{
+	color:#FF0000;
+	
+	font-size:65px;
+	text-transform: uppercase;
+	font-weight:800;
+}
+.new2{
+	padding:24px;
+}
+.sec2 p{
+	text-align:center;
+	color:#000;
+}
+.sec2 p{
+	
+	background-color: #bee3f242;
+    padding: 35px;
+    border-radius: 10px;
+}
+
+
+.btn2{
+	text-align:center;
+} 
+.btn2 a{
+	color:#fff;
+	font-size:16px;
+	display:inline-block;
+	margin:25px 0px 25px 0px;
+	background-color:#2FA3F8;
+	padding:8px 25px 8px 10px;
+	border-radius: 8px;
+	
+	background-image:url('../images/arroow.png');
+	background-repeat:no-repeat;
+	background-size: 6px;
+    background-position: 88%center;
+}
+.btn2 a:hover{
+	background-image:url('../images/arroow.png');
+	background-position: 95% center;
+	transition:0.3s ease;
+	background-size: 10px;
+}
+
+
+/*sec 3*/
+.sec3{
+	background-color:green;
+	background-image:url('../images/parashout.jpg');
+	
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	
+	background-size: cover;
+	
+	padding: 200px 100px;
+}
+
+.linkpage{
+	text-align:center;
+}
+.about{
+	text-align:center;
+	
+}
+.about a{
+	
+	
+	font-size:35px;
+	font-weight:800;
+	color:#004D8B;
+	text-transform:uppercase;
+	margin: 25px 0px 25px 0px;
+
+}
+.sec3 p{
+	text-align:center;
+	color:white;
+	
+	background-color:#0c1021b8;
+	padding:35px;
+}
+.linkpage a{
+	margin: 25px 0px 25px 0px;
+	background-color:blue;
+	padding:4px 15px ;
+	color:white;
+	border-radius:5px;
+}
